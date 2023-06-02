@@ -1,6 +1,6 @@
 let form = document.forms.calc;
 form.type.onchange=set_time;
-export function set_time (){
+function set_time (){
     let type=form.type.value;
     let selecter = document.getElementById('setPlace');
     if(type==="Пополняемый")
@@ -24,7 +24,7 @@ export function set_time (){
 }
 set_time();
 
-export function calculate(){
+function calculate(){
     let type=form.type.value;
     let initial = form.money.value;
     let time = form.time.value; 

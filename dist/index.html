@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Калькулятор</title>
+</head>
+<body>
+      <h3>Задание 3</h3>
+      <div class="taskbox">
+        <form name="calc" onsubmit="return false">
+            <div class="solvebox">
+                <div class="leftbox">
+                    <div class="listbox">
+                        <select class="selecter" name="type">
+                            <option value="Пополняемый">Пополняемый</option>
+                            <option value="Срочный">Срочный</option>
+                        </select>
+                    </div>
+                    <div class="listbox">
+                        <select class="selecter" name="time" id="setPlace">
+                        </select>
+                    </div>
+                    <div class="listbox">
+                        <input class="input" name="money" type="number" required>
+                    </div>
+                    <div class="listbox">
+                        <button class="button" name="solve">Расчитать</button>
+                    </div>
+                </div>
+                <div class="rightbox">
+                    <div class="textbox">
+                        <p id="output"></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+<script defer src="bundle.js"></script></body>
+</html
+
